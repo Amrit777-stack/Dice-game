@@ -21,7 +21,24 @@ h1 {
   font-size: 4rem;
   color: #4ECCA3;
 }
+button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-family: 'Orbitron', sans-serif;
+  background-color:	#ff9f1c;
+  color:#393E46;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 8px 15px rgba(255, 89, 94, 0.3);
+  transition: all 0.3s ease;
+}
 
+button:hover {
+  background-color:#e88b11;
+  box-shadow: 0 12px 20px rgba(233, 74, 79, 0.4);
+  transform: translateY(3px);
+}
 p {
   font-size: 2rem;
   color: #4ECCA3;
