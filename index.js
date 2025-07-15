@@ -17,3 +17,6 @@ else if(random1<random2)
 else{
       document.querySelector("h1").innerHTML="Oops! Round tied&#128517"
 }
+function refreshPage() {
+  location.reload();
+}
